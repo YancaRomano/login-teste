@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Register</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
+	</head>
+	<body>
+		<main class="container_main">
+			<section class="container_one">
+				<img src="assets/img.jpeg" alt="galera do vnw" class="img_inform">
+				<div class="block_one">
+					<h1 class="title">Welcome to CrowDrise</h1>
+					<p class="paragraph-one">Let's get you all set up so you can verify your nonprofit and begin setting up your first campaign!</p>
+					<p class="paragraph-two">Already have an account? <a href="login.html">Log in</a></p>
+					<form>
+						<label class="firstname">
+							First Name
+							<input type="text" name="first name" placeholder="Nome" class="input-name" required>
+						</label>
+						<labe class="lastname">
+							Last Name
+							<input type="text" name="last name" placeholder="Sobrenome" class="input-last" required>
+						</label>
+						<label class="phone">
+							Phone
+							<input type="tel" name="phone" placeholder="(xx) xxxx-xxxx" class="input-phone" required>
+						</label>
+						<label class="email">
+							Email
+							<input type="email" name="email" placeholder="aqui@exemplo.com" class="input-email" required>
+						</label>
+						<label class="password">
+							Password
+							<input type="password" name="password" class="input-password" required>
+						</label>
+						<label class="confirmpassword">
+							Confirm password
+							<input type="password" name="confirm_password" class="input-confirmpassword" required>
+						</label>
+						<label class="receive-crowdrise">
+							<input type="checkbox" name="receberemails">Yes, I want to receive Crowdrise's emails
+						</label>
+						<label class="termos">
+							<input type="checkbox" name="terms" required>I agree to the <a href=""> Terms, Privacy </a>and <a href="">Fess</a>
+						</label>
+						<button class="button-enviar">Enviar cadastro</button>
+						<hr class="hr">
+					</form>
+					<p class="paragraph-last">Don't work for a nonprofit? <a href="">You cant still fundcraise for one.</a></p>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

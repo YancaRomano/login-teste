@@ -1,0 +1,155 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Laila', serif;
+}
+body {
+	background-color: #CD5C5C;
+}
+.container_main {
+	width: 98%;
+	margin: 10px;
+}
+.container_one {
+	padding: 55px;
+}
+.img_inform {
+	width: 580px;
+	height: 80vh;
+	display: inline-block;
+}
+.block_one {
+	width: 520px;
+	height: 80vh;
+	display: inline-block;
+	padding: 6px;
+	position: relative;
+	bottom: 154px;
+	right: 4px;
+	background-color: #fff;
+}
+.title {
+	font-size: 22px;
+	margin-left: 52px;
+	margin-top: 50px;
+}
+.paragraph-one {
+	font-size: 14px;
+	margin-left: 52px;
+	margin-top:10px;
+}
+.paragraph-two {
+	font-size: 14px;
+	margin-left: 52px;
+	margin-top:30px;
+}
+.firstname{
+	display:inline-block;
+	position: relative;
+	font-size: 15px;
+	left: 50px;
+	top: 5px;
+}
+.input-name{
+	height: 30px;
+	position: relative;
+	right: 82px;
+	top: 25px;
+}
+.lastname{
+	display: inline-block;
+	position: relative;
+	font-size: 15px;
+	left: 239px;
+    top: -25px;
+}
+.input-last{
+	height:30px;
+	position: relative;
+	right: 80px;
+    top: 25px;
+}
+.phone{
+	display: inline-block;
+	position: relative;
+	font-size: 15px;
+	right: 445px;
+    top: 59px;
+}
+.input-phone{
+	height: 30px;
+	position:relative;
+	right:47px;
+    top:23px;
+}
+.email{
+	display:inline-block;
+	position:relative;
+	font-size: 15px;
+	left:0px;
+    top:29px;
+}
+.input-email{
+	height: 30px;
+	position:relative;
+	right:47px;
+    top:23px;
+}
+.password{
+	display:inline-flex;
+	position:relative;
+	font-size: 15px;
+	right: 412px;
+    top: 89px;
+}
+.input-password{
+	height:30px;
+	position: relative;
+	right: 66px;
+    top:21px;
+}
+.confirmpassword{
+	display:inline-flex;
+	position:relative;
+	font-size: 15px;
+	left: -4px;
+    top:58px;
+ }
+ .input-confirmpassword{
+ 	height:30px;
+	position: relative;
+	right: 126px;
+    top: 23px;
+ }
+ .receive-crowdrise, .termos{
+ 	display:inline-block;
+	position:relative;
+	font-size: 15px;
+	right: 190px;
+    top: 98px;
+ }
+ .button-enviar{
+ 	position:relative;
+ 	right: 385px;
+    top: 122px;
+ }
+.hr{
+	width: 60px;
+	height:4px;
+	position: relative;
+	top: 112px;
+    right: 193px;
+	background-color: #CD5C5C;
+	border: none;
+}
+.paragraph-last{
+	position:relative;
+	font-size:13px;
+	right: 191px;
+    top: 128px;
+}
+a {
+	text-decoration: none;
+	color: #CD5C5C;
+}

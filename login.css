@@ -1,0 +1,47 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family: 'Laila', serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Laila');
+
+body {
+	width: 100%;
+	height: 85vh;
+	background-color: #CD5C5C;
+}
+main {
+	width: 100%;
+}
+.container_one {
+	width: 87%;
+	height: 75vh;
+	display: inline-block;
+	margin:80px;
+	background-color: #fff;
+	box-shadow: 2px 2px 9px -1px #000;
+}
+h1{
+	position: relative;
+	font-size: 34px;
+	margin-left: 40%;
+	top: 29%;
+	color: #CD5C5C;
+}
+.form{
+	position: relative;
+    font-size: 25px;
+    left: 25%;
+    top: 32%;
+}
+p{
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+    top: 37%;	
+}
+a{
+	text-decoration:none;
+	color: #CD5C5C;
+}
